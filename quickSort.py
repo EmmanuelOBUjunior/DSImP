@@ -26,7 +26,7 @@ def partition(arr, start, end):
 
 def quickSort(arr, start, end):
     if start < end:
-        partI =  partition(arr, start, end)
+        partI = partition(arr, start, end)
         quickSort(elements, start, partI - 1)
         quickSort(elements, partI + 1, end)
 
